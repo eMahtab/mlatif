@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>@Mohammad Latif </title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="custom.css" rel="stylesheet">
+      
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="jqCloud.min.js"></script>
+    <script>
+        
+        var words = [
+  {text: "Muslim", weight: 13},  {text: "Fearless", weight: 10.5},
+  {text: "Motivated", weight: 9.4},  {text: "Capable", weight: 8},
+  {text: "LinuxFreak", weight: 6.2}, {text: "Traditional", weight: 7}, 
+  {text: "Persistent", weight: 1},  {text: "Creative", weight: 11},
+  {text: "Ambitious", weight: 16} ,{text: "Optimistic", weight: 5}
+ 
+   ];
+          
+      </script>
+
+  </head>
+  <body>
+   
+   <div class="container">
+      
+      <div class="row">
+      
+          <div class="col-md-12">
+          
+              <div class="col-md-6">
+                 <div style="font-family:wordsFont;font-size:30px;width: 550px; height: 350px;" id="identity"></div>
+              </div>
+              
+              <div class="col-md-6">
+                 <img width="400" height="600" src="latif-profile.png"/>
+              </div>
+          </div>
+          
+          <div style="font-family: signatureFont;font-size: 35px" class="col-sm-offset-6 col-md-6">
+                Mohammad Latif
+          </div>
+       
+      </div>
+         
+   </div>
+      
+      <script>
+         $('#identity').jQCloud(words);
+      </script>     
+      
+  </body>
+</html>

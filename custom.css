@@ -1,0 +1,9 @@
+@font-face {
+    font-family: wordsFont;
+    font-weight:bolder; 
+}
+
+@font-face {
+    font-family: signatureFont;
+    src: url(Signerica_Medium.ttf);    
+}
